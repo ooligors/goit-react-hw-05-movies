@@ -67,7 +67,7 @@ import css from '../../Movies/MovieCastReview.module.css';
 
     return (
         <>           
-            {items.length > 0 && <ul className={css.list}><MovieReviews items={items} /></ul>} : <p>We don`t have any reviews for this movie.</p> 
+            {items.length > 0 ? <ul className={css.list}><MovieReviews items={items} /></ul> : <p>We don`t have any reviews for this movie.</p> }
             {/* {items.length <1 &&  <p>We don`t have any reviews for this movie.</p>    }  */}
 
             {loading && <p>...load information</p>}
