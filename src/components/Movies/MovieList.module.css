@@ -1,0 +1,21 @@
+.ul {
+  list-style: none;
+
+  margin: 20px auto;
+  border-radius: 5px;
+}
+.li {
+  box-shadow: rgba(241, 176, 176, 0.4) 0px 1px 5px 0px,
+    rgba(173, 234, 184, 0.5) 0px 1px 5px 0px;
+
+  cursor: pointer;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.link:hover {
+  color: rgb(239, 44, 44);
+  text-shadow: #000 0px 1px 5px 0px;
+}
