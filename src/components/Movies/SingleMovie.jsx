@@ -7,7 +7,7 @@ export const SingleMovie = ({ item }) => {
   const User_Score = Math.round(vote_average * 10);
   const Genres = genres?.map(genre => genre.name).join(' ');
   return (
-    <div>
+    <div className={css.div}>
       <div className={css.card}>
         {poster_path && (
           <img

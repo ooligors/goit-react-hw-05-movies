@@ -25,4 +25,9 @@
   font-size: 24px;
   font-weight: 700;
   list-style: none;
+  box-shadow: #797b79 0px 2px 10px 0px,
+    #10bceb 0px 2px 15px 0px;
+    background-color: rgb(248, 175, 235);
 }
+
+

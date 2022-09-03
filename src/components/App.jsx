@@ -13,7 +13,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <div>
+      <div 
+    > 
         <Menu />
         <UserRoutes />
       </div>
